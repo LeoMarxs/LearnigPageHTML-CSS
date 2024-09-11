@@ -1,0 +1,152 @@
+/* Estilos Gerais */    
+body {
+    font-family: 'Arial', sans-serif;
+    /*background: linear-gradient(#7f7d7d, #4d4b4c,#434243, #151515);*/
+    background-image: url('OIP.jpg');
+    opacity: 1;
+    color: #333;
+    line-height: 1.5;
+    margin: 0; /* espaço externo ao redor de um elemento, ou seja, a
+    distância entre a borda do elemento e outros elementos ou bordas adjacentes */
+    padding: 0; /* espaço interno de um elemento, entre o conteúdo
+    (como texto ou imagem) e a borda do elemento */
+    scroll-behavior: smooth; /* suaviza o scroll */
+    display: flex;
+    justify-content: center;
+    }
+
+    
+.conteudoPrincipal{
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+    h2, h3, h4 {
+    color: #2c3e50;
+    }
+
+    h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #34495e;
+    }
+
+    hr {
+    border: 0;
+    height: 3px;
+    background: #ecf0f1;
+    margin: 20px 0;
+    }
+    /* Estilos de Texto */
+    p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    }
+
+    .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+    }
+
+    .highlight2 {
+    color: #3498db;
+    font-weight: bold;
+    }
+
+    em {
+    color: #27ae60;
+    font-style: normal;
+    font-weight: bold;
+    }
+    /* Estilos para Links */
+    a {
+    text-decoration: none; /* para nao decorar de nenhuma forma os
+    links, por padrão os links ficam sublinhados */
+    color: #3498db;
+    transition: color 0.5s; /* tempo para a transição de cor para o
+    efeito hover */
+    }
+
+    a:hover {
+    color: #1abc9c;
+    }
+    /* Estilos para Imagem */
+    img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block; /* significa que ele ocupa toda a largura
+    disponível de seu container */
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #3498db;
+    }
+    /* Estilos para Listas */
+    ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    li {
+    margin-bottom: 10px;
+    }
+    /* Estilos para Formulário */
+    form {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    button {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* maozinha */
+    transition: background 0.5s;
+    }
+
+    button:hover {
+    background: #2980b9;
+    }
+    /* Estilos para o Footer */
+    footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    }
+
+    footer p {
+    margin: 0;
+    }
+
+    footer a {
+    color: #ecf0f1;
+    }
+    
+    footer a:hover {
+    color: #3498db;
+    }
