@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     /*background: linear-gradient(#7f7d7d, #4d4b4c,#434243, #151515);*/
     background-image: url('OIP.jpg');
-    opacity: 1;
+    opacity: 0.8;
     color: #333;
     line-height: 1.5;
     margin: 0; /* espaço externo ao redor de um elemento, ou seja, a
